@@ -1,0 +1,47 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+
+<!-- Cabecera -->
+<section class="page-section clearfix">
+  <div class="container">
+    <div class="intro">
+      <img class="intro-img img-fluid mb-2 mb-lg-0 rounded" src="{% static 'core/img/image1.jpg' %}" alt="">
+      <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+        <h2 class="section-heading mb-4">
+          <span class="section-heading-upper">IMPRIME TU MODELO</span>
+          <span class="section-heading-lower">INICIO</span>
+        </h2>
+        <p>Trabajamos sólo con los mejores materiales. Obtén modelos impresos en resina a precios económicos.
+        </p>
+        <p class="mb-3"> ¡Dale un vistazo a nuestra web para ver todo lo que ofrecemos!</p>
+        <div class="intro-button mx-auto">
+          <a class="btn btn-primary btn-xl" href="services/">Servicios</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Mensaje -->
+<section class="page-section cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <div class="cta-inner text-center rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">Compromiso total</span>
+            <span class="section-heading-lower">Garantizado</span>
+          </h2>
+          <p class="mb-4">Te enviaremos fotos a medida que tus piezas estén listas y te iremos informando tal y como vayamos imprimiendo tus modelos. ¡Estarán listos en pocos dias!</p>
+          <p class="mb-0">Todas nuestras piezas se entregán con los soportes. También se les aplicará un baño de alcohol isopropilico y un lavado con agua para eliminar cualquier resto de resina sin curar que quede. Por último también se les aplica un curado con luz UV para que las piezas adquieran la dureza final.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
